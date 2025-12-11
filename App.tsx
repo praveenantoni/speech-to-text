@@ -469,16 +469,16 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-900 font-sans p-4 sm:p-6 lg:p-8">
       <div className="max-w-[1600px] mx-auto">
-        <header className="flex flex-col items-center justify-center mb-10 gap-6">
+        <header className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6 mb-10">
             <div className="relative">
                 <div className="absolute -inset-4 bg-cyan-500/10 blur-xl rounded-full opacity-50"></div>
                 <img 
                     src="logo.png" 
                     alt="TechWolf" 
-                    className="relative h-28 sm:h-32 w-auto object-contain drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]"
+                    className="relative h-16 w-auto object-contain drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]"
                 />
             </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 tracking-tight">
+            <h1 className="text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 tracking-tight">
                 Audio Transcription Assistant
             </h1>
         </header>
