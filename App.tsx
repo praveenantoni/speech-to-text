@@ -473,7 +473,7 @@ const App: React.FC = () => {
             <div className="relative">
                 <div className="absolute -inset-4 bg-cyan-500/10 blur-xl rounded-full opacity-50"></div>
                 <img 
-                    src="logo.png" 
+                    src="/logo.png" 
                     alt="TechWolf" 
                     className="relative h-16 w-auto object-contain drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]"
                 />
